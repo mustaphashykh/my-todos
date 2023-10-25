@@ -12,7 +12,7 @@ function App() {
       dispatch(todosAction.readTodo())
     }
   }
-    , [])
+  )
   return (
     <div>
       <Header />
